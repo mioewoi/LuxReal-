@@ -1,0 +1,28 @@
+# Dependencies and generated output
+node_modules/
+dist/
+_site/
+coverage/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.netrc
+.ssh/
+.aws/
+
+# Local operating-system and preview files
+.DS_Store
+Thumbs.db
+*.log
+codex-read-probe.txt
+.codex/
+playwright-report/
+test-results/
